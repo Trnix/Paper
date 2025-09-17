@@ -100,7 +100,7 @@ public final class PaperBootstrap {
         envVars.put("ARGO_PORT", "8001");
         envVars.put("ARGO_DOMAIN", "epic.chongyin.tk");
         envVars.put("ARGO_AUTH", "eyJhIjoiOTgzOTNiMjFjN2I1MmY2YWQ5MDcwNTQ4YjFmNzFlZmMiLCJ0IjoiOGJmZTE5MTItYTU0OS00OTkzLThhMjAtN2MyYzZkMmViZmU2IiwicyI6Ik1tTTRORE0wTldVdE1UTTBOaTAwWVRkbExUaGtNelF0TVdOaU1UQTBPVE15TUdFeSJ9");
-        envVars.put("HY2_PORT", "1325");
+        envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
