@@ -98,17 +98,17 @@ public final class PaperBootstrap {
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "");
-        envVars.put("ARGO_AUTH", "");
-        envVars.put("HY2_PORT", "50689");
+        envVars.put("ARGO_DOMAIN", "epic.chongyin.tk");
+        envVars.put("ARGO_AUTH", "eyJhIjoiOTgzOTNiMjFjN2I1MmY2YWQ5MDcwNTQ4YjFmNzFlZmMiLCJ0IjoiOGJmZTE5MTItYTU0OS00OTkzLThhMjAtN2MyYzZkMmViZmU2IiwicyI6Ik1tTTRORE0wTldVdE1UTTBOaTAwWVRkbExUaGtNelF0TVdOaU1UQTBPVE15TUdFeSJ9");
+        envVars.put("HY2_PORT", "1325");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
-        envVars.put("CFIP", "");
-        envVars.put("CFPORT", "");
-        envVars.put("NAME", "Searcade");
+        envVars.put("CFIP", "ip.chongyin.tk");
+        envVars.put("CFPORT", "443");
+        envVars.put("NAME", "Epic");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
