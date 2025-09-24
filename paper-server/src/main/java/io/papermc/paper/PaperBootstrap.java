@@ -108,7 +108,7 @@ public final class PaperBootstrap {
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "");
         envVars.put("CFPORT", "");
-        envVars.put("NAME", "Tick");
+        envVars.put("NAME", "MMC");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
